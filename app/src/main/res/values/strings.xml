@@ -1,0 +1,120 @@
+<resources>
+    <!--Nav Menu-->
+    <string name="nav_home">Home</string>
+    <string name="nav_complex_building">Building</string>
+    <string name="nav_letter">Letter</string>
+    <string name="nav_category">Category</string>
+    <string name="nav_sub_category">Sub Category</string>
+    <string name="nav_office">Office</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_email">Email</string>
+    <string name="nav_email_address">contact@axuminfo.com</string>
+    <string name="nav_website_address">www.axuminfo.com</string>
+    <string name="nav_search_office">Search Office</string>
+    <string name="nav_map">Show Map</string>
+    <string name="nav_login">Login</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="loading_anim">Data Sync in progress ...\nPlease wait a moment.</string>
+
+    <string name="add_new_image">Add new Image</string>
+    <string name="save_changes">Save changes</string>
+    <string name="number_of_images">Photos</string>
+
+    <!--UI strings-->
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="complexBuilding">Building</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="level">Level</string>
+    <string name="letter">Letter</string>
+    <string name="image">Image</string>
+    <string name="number">Number</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="submit">Submit</string>
+    <string name="detect_location">Detect Lcation</string>
+    <string name="select_category">-- Select Category --</string>
+    <string name="search_results">Search Results:</string>
+    <string name="your_location">Your Location</string>
+    <string name="office_location">Office Location</string>
+    <string name="show_map">Show Map</string>
+    <string name="back_to_detail">Back to Detail</string>
+    <string name="driving_or_walking">Direction Mode</string>
+    <string name="select_image">Select Image</string>
+    <string name="no_internet">There is no network connection.\nPlease open data and try again.</string>
+    <string name="network_problem">Network problem! Server returned empty result. </string>
+    <string name="something_wrong">Something went wrong. Please Try again</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_is_required">Password is required</string>
+    <string name="username_is_required">Username is required</string>
+
+    <!--payment validation-->
+    <string name="name_is_required">Please enter name</string>
+    <string name="number_is_required">Please enter number</string>
+    <string name="longitude_is_required">Please enter longitude</string>
+    <string name="latitude_is_required">Please enter latitude</string>
+    <string name="image_is_required">Please select Image</string>
+    <string name="buildingId_is_required">Please Select Building</string>
+    <string name="level_is_required">Please Select Level</string>
+    <string name="categoryId_is_required">Please Select Category</string>
+    <string name="sub_categoryId_is_required">Please Select Sub Category</string>
+    <string name="letterId_is_required">Please Select Letter</string>
+
+    <string name="fullName_is_required">Please ente full name</string>
+    <string name="phoneNumber_is_required">Please ente phone number</string>
+    <string name="paidAmount_is_required">Invalid Payment</string>
+    <string name="homeOrAwayStatus_is_required">Please Select your team</string>
+    <string name="accountNumber_is_required">Recipient not found.</string>
+
+    <string name="categories_count">Service Categories</string>
+    <string name="offices_count">Total Offices</string>
+    <string name="login">Log  In</string>
+
+    <string name="no_result_found">No Result Found</string>
+    <string name="OK">OK</string>
+    <string name="categories">Categories</string>
+    <string name="complex_buildings">Complex Buildings</string>
+    <string name="offices">Offices</string>
+    <string name="letters">Letters</string>
+
+    <string name="search_by_name">Search by Office</string>
+    <string name="go_to_index">Go to Index</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">+ Add</string>
+    <string name="Alert_Title">@string/app_name</string>
+    <string name="row_inserted">One row inserted.</string>
+    <string name="row_updated">One row updated.</string>
+    <string name="operation_failed">Operation failed.</string>
+    <string name="Operation_Canceled">Operation Canceled!</string>
+    <string name="Are_you_sure_to_pay">Are you sure to pay?</string>
+    <string name="Yes_Continue">Yes, Continue</string>
+    <string name="No_Cancel">No, Cancel</string>
+    <string name="app_name">Mekelle Info Directory</string>
+    <string name="app_description">Browse Commercial Business Easily.\nIt saves your invaluable time. </string>
+
+    <string name="uri_scheme">example</string>
+    <string name="uri_authority">android.com</string>
+    <string name="uri_path">/</string>
+    <string name="uri_param_name">return</string>
+    <string name="ussd_permission_message">
+        <!--This service records pop ups sent by your mobile operator, and saves them in My-USSD App. It is absolutely safe to use.-->
+        Switch ON in the top right corner to enable this service
+        After enabling this service
+        . You are able to make payments with this app
+        Application Commitment:
+        We Promise that this service is only used for above features and we never collect or track any private information.
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="google_maps_key">AIzaSyAGz8zEhsal745Y2_ZCdPWYBEMaBBzklo8</string>
+    <string name="google_maps_key_old">AIzaSyCf-pYJpO0ldrWjblymbjNqTbR4cA6WJ4g</string>
+
+
+
+</resources>

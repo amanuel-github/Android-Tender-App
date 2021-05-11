@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.axuminfo.user.ussdapp1.com.example.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/app_name"
+            android:layout_marginTop="40dp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/ussdCodeTF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/phoneNumberTF"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"/>
+            <EditText
+                android:id="@+id/amountInBirrTF"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:inputType="numberSigned"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/payNowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay Now"
+            android:layout_marginTop="20dp"
+            android:onClick="payNow"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/game"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" />
+        <EditText
+            android:id="@+id/ticketCode"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="Ticket Code"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="Full Name"/>
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:inputType="number"
+            android:hint="Phone Number"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/paidAmount"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:inputType="number"
+                android:hint="Paid Amount"/>
+        <Spinner
+            android:id="@+id/homeOrAwayStatus"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/loadDataBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Data"
+            android:layout_marginTop="20dp"
+            android:onClick="loadData"/>
+        <Button
+            android:id="@+id/submitPaymentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Payment"
+            android:layout_marginTop="20dp"
+            android:onClick="submitPayment"/>
+    </LinearLayout>
+
+
+</LinearLayout>

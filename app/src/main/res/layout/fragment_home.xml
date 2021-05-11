@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/semenawit_kokob_1"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"
+            android:layout_marginTop="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="30dp">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/app_nameLb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"/>
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="@string/app_description"
+                android:layout_marginTop="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/categories_count"
+                    android:layout_marginTop="2dp"
+                    android:gravity="end"
+                    android:textAlignment="textEnd"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/categoriesCountTv"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>'
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/offices_count"
+                    android:layout_marginTop="2dp"
+                    android:gravity="end"
+                    android:textAlignment="textEnd" />
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/officesCountTv"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp"/>
+            </LinearLayout>'
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"
+            android:layout_marginBottom="20dp" />
+            <Button
+                android:id="@+id/startAppBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nav_search_office"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <Button
+                android:id="@+id/syncDataBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sync_data"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

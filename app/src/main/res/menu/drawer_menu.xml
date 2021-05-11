@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_website"
+            android:title="@string/sync_data" />
+        <item
+            android:id="@+id/nav_search_office"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_search_office" />
+        <!--<item
+            android:id="@+id/nav_complex_building"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_complex_building" />
+        <item
+            android:id="@+id/nav_letter"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_letter" />-->
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_category" />
+        <item
+            android:id="@+id/nav_sub_category"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_sub_category" />
+        <item
+            android:id="@+id/nav_office"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_office" />
+        <!--<item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_map" />-->
+<!--
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_usd"
+            android:title="@string/nav_login" />-->
+
+    </group>
+
+    <item android:title="@string/nav_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/nav_share" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_email">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_messsage"
+                android:textColor="?attr/colorPrimary"
+                android:title="@string/nav_email_address" />
+        </menu>
+    </item>
+</menu>

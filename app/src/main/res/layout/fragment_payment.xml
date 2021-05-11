@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/gameLB"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="game"
+                    android:layout_marginTop="2dp" />
+                <Spinner
+                    android:id="@+id/game"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/game_pricesLB"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="priceType"
+                    android:layout_marginTop="2dp" />
+                <Spinner
+                    android:id="@+id/game_prices"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/gamePriceLB"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="paidAmount"
+                    android:layout_marginTop="2dp" />
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/gamePriceTV"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/fullNameLB"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="fullName"
+                    android:layout_marginTop="2dp" />
+                <EditText
+                    android:id="@+id/fullName"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/phoneNumberLB"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="phoneNumber"
+                    android:layout_marginTop="2dp" />
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:inputType="number"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/homeOrAwayStatusLB"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="homeOrAwayStatus"
+                    android:layout_marginTop="2dp" />
+                <Spinner
+                    android:id="@+id/homeOrAwayStatus"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"
+                android:layout_marginTop="10dp"/>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/paidAmount"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:inputType="number"
+                    android:hint="Paid Amount"/>
+            </LinearLayout>-->
+            <!--<Button
+                android:id="@+id/loadDataBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Load Data"
+                android:layout_marginTop="20dp"
+                android:onClick="loadData"/>-->
+            <Button
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/submitPaymentBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Payment"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
